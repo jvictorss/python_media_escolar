@@ -14,7 +14,7 @@ if d > 10:
     d = int(input('Número digitado errado. Primeiro bimestre: '))
 media = (a + b + c + d) / 4
 soma = a + b + c + d
-if a <= 10 and b <=10 and c <=10 and d <=10:
+if a, b, c, d <=10:
     print('Média: {}'.format(media))
     if media <= 7:
         print('A média de {} foi {}. Status: REPROVADO.'.format(aluno, media))
